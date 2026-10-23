@@ -1,0 +1,11 @@
+# This file is used to override language statistics
+# Default behavior
+public/index.html linguist-vendored
+src/**/*.tsx linguist-detectable
+
+* text=auto eol=lf
+node_modules/* linguist-vendored
+*.jpg binary
+*.ico binary
+
+*.ts linguist-detectable
